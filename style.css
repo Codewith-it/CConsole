@@ -1,0 +1,105 @@
+#CConsole {
+	position: fixed !important;
+	z-index: 9999 !important;
+	bottom: 0 !important;
+	right: 0 !important;
+	left: 0 !important;
+	margin: auto !important;
+	max-width: 70% !important;
+	height: auto !important;
+	color: #000 !important;
+	background-color: transparent !important;
+	font-family: Ubuntu,sans-serif !important;
+	display:block !important;
+	color: black !important;
+}
+
+#CCdebug {
+	overflow: auto !important;
+	max-height: 200px !important;
+	box-shadow: 0 0 5px #00000033 !important;
+}
+
+.CCcon {
+	height: auto !important;
+	padding: 2px 4px !important;
+	margin: 0 !important;
+	background-color: #fff !important;
+	border-bottom: 1px solid #00000011 !important;
+	margin: 1px 0 !important;
+}
+
+.CCcon:hover {
+	background-color: #d3d3d3 !important;
+}
+
+.CCcon-log {
+	border-left: 4px solid #d3d3d3 !important;
+}
+
+.CCcon-err {
+	background-color: #ff3d3d !important;
+	color: #fff !important;
+}
+
+.CCcon-info {
+	border-left: 4px solid #add8e6 !important;
+}
+
+.CCcon-warn {
+	border-left: 4px solid orange !important;
+}
+
+.CCcon-dir {
+	border-left: 4px solid #90ee90 !important;
+}
+
+.CCcon-debug {
+	border-left: 4px solid green !important;
+}
+.CCcon-result {
+	color: gray !important;
+}
+.CCcon-input {
+    background-color: #f7f7f7 !important;
+	color:grey !important;
+}
+
+
+.CCbtn {
+	border: solid 1px #E0E0E0 !important;
+	background-color: #F0F0F0E0 !important;
+	border: none !important;
+	padding: 4px 6px !important;
+	font-family: "Ubuntu",monospace !important;
+	color: #596579 !important;
+	font-weight: bold !important;
+	cursor:pointer !important;
+	display:block !important;
+}
+
+#CCbuttons {
+	position: fixed !important;
+	bottom: 0 !important;
+	right: 0 !important;	
+	display:block !important;
+}
+
+#CCinput {
+	height: auto !important;
+	padding: 4px 8px !important;
+	margin: 0 !important;
+	width: 100% !important;
+	background-color: #eee !important;
+	border: none !important;
+	border-top: 2px solid black !important;
+	margin: 1px 0 !important;
+	font-family: monospace !important;
+	opacity: 0.5 !important;
+	display:none;
+    font-weight: bold !important;	
+}
+#CCinput:hover {
+opacity:1 !important }
+#CCinput:focus {
+opacity:1 !important }
